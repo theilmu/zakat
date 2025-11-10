@@ -178,7 +178,7 @@
       .header{padding:18px 18px 0}
       .title{display:flex; gap:10px; align-items:center}
       .logo{width:28px;height:28px;border-radius:8px;background:var(--ia-primary); display:inline-grid;place-items:center;color:#fff;font-weight:700}
-      h1{font-size:20px; margin:0}
+      h2{font-size:20px; margin:0}
       .sub{color:var(--ia-muted); font-size:13px; margin:6px 0 0}
       .bar{margin:16px 18px 0; display:flex; flex-wrap:wrap; gap:8px}
       .tab{padding:10px 12px; border:1px solid var(--ia-border); border-radius:10px; background:var(--ia-soft); cursor:pointer; font-size:13px}
@@ -223,7 +223,7 @@
                 <div class="title">
                   <div class="logo">IA</div>
                   <div>
-                    <h1>Kalkulator Zakat IlmuAlam</h1>
+                    <h2>Kalkulator Zakat JAKIM</h2>
                     <p class="sub">Kira pelbagai jenis zakat dengan kadar 2.5% (haul setahun) & nisab berasaskan emas. Semua di satu tempat.</p>
                   </div>
                 </div>
@@ -240,7 +240,7 @@
               </div>
               <div class="body" id="view"></div>
               <div class="foot">
-                <span>© ${new Date().getFullYear()} ${this.cfg.brand} • v${this.cfg.version}</span>
+                <span>© ${new Date().getFullYear()} <a href="https://www.ilmualam.com" target="_blank" rel="noopener noreferrer">${this.cfg.brand}</a> • v${this.cfg.version}</span>
                 <span><span class="link" id="printBtn">Cetak / Simpan PDF</span> · <span class="link" id="resetBtn">Set Semula</span></span>
               </div>
             </div>
