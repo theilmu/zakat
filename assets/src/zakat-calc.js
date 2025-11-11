@@ -241,7 +241,7 @@
               <div class="body" id="view"></div>
               <div class="foot">
                 <span>© ${new Date().getFullYear()} <a href="https://www.ilmualam.com" target="_blank" rel="noopener noreferrer">${this.cfg.brand}</a> • v${this.cfg.version}</span>
-                <span><span class="link" id="printBtn">Cetak / Simpan PDF</span> · <span class="link" id="resetBtn">Set Semula</span></span>
+                <span><span class="link" id="printBtn">Cetak PDF</span> · <span class="link" id="resetBtn">Reset</span></span>
               </div>
             </div>
           </div>
